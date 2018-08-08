@@ -1,7 +1,7 @@
 #include <GUIConstantsEx.au3>
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
-#include <Mem.au3>
+#include <NormalMemory.au3>
 MsgBox(0,0,"Đang đợi game")
 ProcessWait("ac_client.exe")
 MsgBox(0,0,"Access !")
